@@ -1,0 +1,12 @@
+package cn.e3mall.sso.service;
+
+import cn.e3mall.pojo.TbUser;
+
+/**
+ *根据token查询用户信息 
+ * <p>Title: TokenService</p>
+ */
+public interface TokenService {
+	
+	TbUser getUserByToken(String token);
+}

@@ -1,0 +1,22 @@
+package cn.e3mall.search.exception;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.HandlerExceptionResolver;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ * <p>Title: GlobalExceptionResolver</p>
+ * <p>Description:全局异常处理器 </p>
+ */
+public class GlobalExceptionResolver implements HandlerExceptionResolver {
+
+	@Override
+	public ModelAndView resolveException(HttpServletRequest arg0, HttpServletResponse arg1, Object arg2,
+			Exception arg3) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

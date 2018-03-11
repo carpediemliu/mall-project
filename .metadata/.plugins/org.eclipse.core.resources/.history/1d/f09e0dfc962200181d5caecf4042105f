@@ -1,0 +1,42 @@
+package cn.e3mall.search.message;
+
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+import javax.jms.TextMessage;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import cn.e3mall.common.pojo.SearchItem;
+import cn.e3mall.search.mapper.ItemMapper;
+
+/**
+ *监听商品添加消息，接收消息后，将对应的商品信息同步到索引库 
+ * <p>Title: ItemAddMessageListener</p>
+ * <p>Description: </p>
+ */
+public class ItemAddMessageListener implements MessageListener {
+
+	@Autowired
+	private ItemMapper itemMapper;
+	
+	@Override
+	public void onMessage(Message message) {
+	    try {
+	    	//从消息中取出商品id
+	    	TextMessage textMessage = (TextMessage)message;
+			String text = textMessage.getText();
+			//根据id查询商品信息
+			Long itemId = new Long(text);
+			SearchItem searchItem = itemMapper.getItemById(itemId);
+			//创建文档对象
+			//添加域
+			//写入索引库
+			//提交
+
+		} catch (JMSException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

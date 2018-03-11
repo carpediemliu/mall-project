@@ -1,0 +1,36 @@
+package cn.e3mall.cart.interceptor;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ *用户登录拦截器 
+ * <p>Title: LoginInterceptor</p>
+ */
+public class LoginInterceptor implements HandlerInterceptor {
+
+	@Override
+	public void afterCompletion(HttpServletRequest arg0, HttpServletResponse arg1, Object arg2, Exception arg3)
+			throws Exception {
+			//返回modelandview后，可以在此处理异常
+	}
+
+	@Override
+	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView)
+			throws Exception {
+		//handler执行之后，返回modelandview之前，对modelandview进行处理
+	}
+
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+		//前处理  执行handler之前 true:放行 falst:拦截
+		//从cookie中取token
+		//没取到，未登陆，直接放行
+		//取到token,需要调用SSO系统服务，根据token取用户信息
+		return false;
+	}
+
+}

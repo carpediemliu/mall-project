@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\01.教案-3.0\01.参考资料\FastDFS\bin\fastdfs_client"/>
+			<item value="D:\01.教案-3.0\01.参考资料\FastDFS\fastdfsClient"/>
+			<item value="D:\01.教案-3.0\01.参考资料\mybatis\pagehelper-fix\pagehelper"/>
+			<item value="D:\01.教案-3.0\01.参考资料\mybatis\逆向工程\"/>
+			<item value="D:\传智播客\01.课程\05.电商项目\01.教案-2.1\01.参考资料\mybatis\pagehelper-fix"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_NOW"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="260" key="DIALOG_Y_ORIGIN"/>
+		<item value="449" key="DIALOG_HEIGHT"/>
+		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

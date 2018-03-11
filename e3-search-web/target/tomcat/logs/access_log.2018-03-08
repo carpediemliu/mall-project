@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [08/Mar/2018:17:13:56 +0800] "GET /search.html?keyword=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 81047 http-bio-8085-exec-1 19734
+0:0:0:0:0:0:0:1 - - [08/Mar/2018:17:13:57 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-3 3

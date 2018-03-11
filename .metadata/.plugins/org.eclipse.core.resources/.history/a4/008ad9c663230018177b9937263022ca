@@ -1,0 +1,21 @@
+package cn.e3mall.sso.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import cn.e3mall.common.utils.E3Result;
+import cn.e3mall.sso.service.RegisterService;
+
+/**
+ * 用户注册处理Service
+ * <p>
+ * Title: RegisterServiceImpl
+ * </p>
+ */
+
+@Service
+public class RegisterServiceImpl implements RegisterService {
+
+	public E3Result checkData(String param, int type) {
+		return null;
+	}
+}

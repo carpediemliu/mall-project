@@ -1,0 +1,6 @@
+package cn.e3mall.cart.service;
+
+public interface CartService {
+
+	//对redis进行读写
+}

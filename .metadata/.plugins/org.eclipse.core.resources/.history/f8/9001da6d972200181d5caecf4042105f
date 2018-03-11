@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.e3mall.search.mapper.ItemMapper">
+	<!--建立索引库的时候需要的数据 -->
+	<select id="getItemList" resultType="cn.e3mall.common.pojo.SearchItem">
+		SELECT A.ID,A.TITLE,A.SELL_POINT,A.PRICE,A.IMAGE,B.NAME CATEGORY_NAME FROM
+		TB_ITEM A LEFT JOIN TB_ITEM_CAT B ON A.CID = B.ID WHERE A.`status` = 1
+	</select>
+	<!--根据ID查询SearchItem  -->
+	<select id="getItemById" resultType="cn.e3mall.common.pojo.SearchItem">
+		SELECT A.ID,A.TITLE,A.SELL_POINT,A.PRICE,A.IMAGE,B.NAME CATEGORY_NAME FROM
+		TB_ITEM A LEFT JOIN TB_ITEM_CAT B ON A.CID = B.ID WHERE A.`status` = 1
+	</select>
+</mapper>

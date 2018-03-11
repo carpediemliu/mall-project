@@ -1,0 +1,14 @@
+package cn.e3mall.sso.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import cn.e3mall.sso.service.LoginService;
+
+/**
+ *用户登录处理 
+ * <p>Title: LoginServiceImpl</p>
+ */
+@Service
+public class LoginServiceImpl implements LoginService {
+
+}

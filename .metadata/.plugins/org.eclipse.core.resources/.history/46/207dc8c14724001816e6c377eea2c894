@@ -1,0 +1,10 @@
+package cn.e3mall.cart.service;
+
+import cn.e3mall.common.utils.E3Result;
+
+public interface CartService {
+
+	// 对redis进行读写,将购物车数据写入服务端
+	E3Result addCart(long userId, long itemId,int num);
+
+}

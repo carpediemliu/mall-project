@@ -1,0 +1,24 @@
+package cn.e3mall.activemq;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestActiveMQ {
+
+	/**
+	 * 点到点形式发送消息
+	 */
+	@Test
+	public void testQueueProducer() throws Exception {
+		 //1.创建连接工厂对象，需要指定IP与端口号
+		 //2.使用工厂对象创建一个connection对象
+		 //3.建立连接，调用connection的start方法
+		 //4.创建一个session对象
+		 //5.使用session对象创建一个destination对象（两种形式：Queue or Topic）
+		 //6.使用session创建一个producer对象（生产者）
+		 //7.创建一个Message消息对象.
+		 //8.发送消息
+		 //9.关闭资源
+	}
+}

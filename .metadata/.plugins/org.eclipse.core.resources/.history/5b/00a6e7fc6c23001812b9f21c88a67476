@@ -1,0 +1,13 @@
+package cn.e3mall.sso.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ *用户登录处理 
+ * <p>Title: LoginController</p>
+ */
+
+@Controller
+public class LoginController {
+
+}

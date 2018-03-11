@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;cn.e3mall.service&apos; to &apos;e3-manager-service&apos;&#x0D;&#x0A;- Original project: &apos;e3-manager-interface&apos;&#x0D;&#x0A;- Destination element: &apos;e3-manager-service&apos;&#x0D;&#x0A;- Original element: &apos;e3-manager-interface/src/main/java/cn.e3mall.service&apos;" description="Copy package" element1="/src\/main\/java&lt;cn.e3mall.service" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1517658704067" target="/e3-manager-service" version="1.0"/>
+</session>

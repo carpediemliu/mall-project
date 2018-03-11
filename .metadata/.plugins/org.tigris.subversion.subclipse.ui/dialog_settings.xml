@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="DirectorySelectionPage.lastParent_https://pc-201311301552/svn/taotao-test"/>
+	<item value="" key="DirectorySelectionPage.lastParent_https://liu/svn/e3-javaee"/>
+	<item value="https://pc-201311301552/svn/taotao-test" key="RepositorySelectionPage.lastRepository"/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="https://Liu/svn/e3-javaee/"/>
+		</list>
+	</section>
+</section>

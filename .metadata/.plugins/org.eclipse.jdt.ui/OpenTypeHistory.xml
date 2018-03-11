@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=e3-manager-interface/src\/main\/java&lt;cn.e3mall.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1517837825182"/>
+<typeInfo handle="=e3-content-interface/src\/main\/java&lt;cn.e3mall.content.service{ContentCategoryService.java[ContentCategoryService" modifiers="513" timestamp="1519827623489"/>
+<typeInfo handle="=e3-content-interface/src\/main\/java&lt;cn.e3mall.content.service{ContentService.java[ContentService" modifiers="513" timestamp="1519657604213"/>
+<typeInfo handle="=e3-search-interface/src\/main\/java&lt;cn.e3mall.search.service{SearchItemService.java[SearchItemService" modifiers="513" timestamp="1519825511362"/>
+<typeInfo handle="=e3-common/C:\/Program Files\/Java\/jdk1.7.0_21\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1490524872442"/>
+<typeInfo handle="=e3-search-interface/src\/main\/java&lt;cn.e3mall.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1519836363750"/>
+<typeInfo handle="=e3-search-web/E:\/projectmodel\/repository\/org\/springframework\/spring-webmvc\/4.2.4.RELEASE\/spring-webmvc-4.2.4.RELEASE.jar&lt;org.springframework.web.servlet(HandlerExceptionResolver.class[HandlerExceptionResolver" modifiers="1537" timestamp="1463390358142"/>
+<typeInfo handle="=e3-manager-pojo/src\/main\/java&lt;cn.e3mall.pojo{TbItem.java[TbItem" modifiers="1" timestamp="1517670687387"/>
+<typeInfo handle="=e3-search-service/E:\/projectmodel\/repository\/org\/apache\/activemq\/activemq-all\/5.11.2\/activemq-all-5.11.2.jar&lt;javax.jms(MessageListener.class[MessageListener" modifiers="1537" timestamp="1463412213137"/>
+<typeInfo handle="=e3-sso-interface/src\/main\/java&lt;cn.e3mall.sso.service{RegisterService.java[RegisterService" modifiers="513" timestamp="1520579957670"/>
+<typeInfo handle="=e3-sso-interface/src\/main\/java&lt;cn.e3mall.sso.service{TokenService.java[TokenService" modifiers="513" timestamp="1520585714897"/>
+<typeInfo handle="=e3-cart-web/E:\/projectmodel\/repository\/org\/springframework\/spring-webmvc\/4.2.4.RELEASE\/spring-webmvc-4.2.4.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1463390358142"/>
+<typeInfo handle="=e3-cart-interface/src\/main\/java&lt;cn.e3mall.cart.service{CartService.java[CartService" modifiers="513" timestamp="1520676176082"/>
+</typeInfoHistroy>

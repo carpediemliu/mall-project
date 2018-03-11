@@ -1,0 +1,6 @@
+package cn.e3mall.sso.service;
+
+public interface LoginService {
+
+	//用户登录Service，参数：用户名，密码
+}

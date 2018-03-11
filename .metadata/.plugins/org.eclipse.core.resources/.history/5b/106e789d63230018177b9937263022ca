@@ -1,0 +1,14 @@
+package cn.e3mall.sso.service.impl;
+
+import cn.e3mall.common.utils.E3Result;
+import cn.e3mall.sso.service.RegisterService;
+
+public class RegisterServiceImpl implements RegisterService {
+
+	@Override
+	public E3Result checkData(String param, int type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
