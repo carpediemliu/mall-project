@@ -1,7 +1,7 @@
 # project
 该项目是一个基于分布式下的互联网电商项目
 架构图如下：
-![架构](http://github.com/carpediemliu/project/raw/master/jiagou.png)
+![架构图](https://github.com/carpediemliu/project/blob/master/jiagou.png)
 前端：原生JS，JQuey,EasyUI
 后端Java
 利用ActiveMQ做为消息中间件方便不同服务之间的相互调用
